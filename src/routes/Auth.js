@@ -73,8 +73,12 @@ const Auth =  () => {
           {newAccount ? "Long in" : "Create Account"}
         </span>
         <div>
-          <button onClick={onSocialClick} name="github">Continue with Github</button>
-          <button onClick={onSocialClick} name="google">Continue with Google</button>
+          <button onClick={onSocialClick} name="github">
+            Continue with Github
+          </button>
+          <button onClick={onSocialClick} name="google">
+            Continue with Google
+          </button>
         </div>
       </div>
     );
