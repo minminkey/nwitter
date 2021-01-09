@@ -6,8 +6,8 @@
 
 input {
   all: unset;
-  box-sizing: border-box;
   appearance: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -120,7 +120,7 @@ form {
   background-color: #04aaff;
   height: 40px;
   width: 40px;
-  padding: 10px 0px;
+  /* padding: 10px 0px; */
   text-align: center;
   border-radius: 20px;
   color: white;
